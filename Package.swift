@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "LocationFormatter",
-    platforms: [.iOS(.v12), .macOS(.v10_13)],
+    platforms: [.iOS(.v12), .macOS(.v10_13), .tvOS(.v15), .watchOS(.v8)],
     products: [
         .library(
             name: "LocationFormatter",
